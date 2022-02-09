@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#header-main {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 10px 0px;
+}
+
+.row {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#home-hero {
+    background: url(images/hero-bg-dark.svg);
+    height: 630px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.hero-heading {
+    max-width: 400px;
+}
+
+#home-hero:before {
+    content: "";
+    width: 100%;
+    display: table;
+    height: 630px;
+    background: url(images/home_mask.svg);
+    position: absolute;
+    top: 0;
+    right: -81px;
+}
